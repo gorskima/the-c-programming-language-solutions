@@ -31,7 +31,7 @@ int read_line(char buf[]) {
 		}
 		counter++;
 	}
-	buf[ch] = '\0';
+	buf[pos] = '\0';
 	
 	return counter;
 }
